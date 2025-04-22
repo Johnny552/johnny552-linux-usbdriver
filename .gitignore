@@ -50,3 +50,35 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# SDCC output
+*.rel
+*.lst
+*.mem
+*.sym
+*.adb
+*.lk
+*.ihx
+*.bin
+*.map
+
+# Build folders
+build/
+obj/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS-generated
+.DS_Store
+Thumbs.db
+
+# Python (if used for flashing)
+__pycache__/
+*.pyc
+
+# Firmware uploader logs
+wchprog*.log
